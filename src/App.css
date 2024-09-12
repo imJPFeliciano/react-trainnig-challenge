@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+.footerStyle{
+  height: 50px;
+  background-color: rgb(241 87 34 / 97%);
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.success {
+  background: #588A97;
+  color: #fff;
+  border: none !important;
+  border: 2px solid transparent !important;
+  cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +54,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul li{
+  display:inline;
+     padding-left:3px;
+     padding-right:3px;
 }
